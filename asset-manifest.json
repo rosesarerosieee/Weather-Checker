@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Weather-Checker/static/css/main.2a1b00a0.css",
+    "main.js": "/Weather-Checker/static/js/main.85d6ce80.js",
+    "static/js/453.97127cc3.chunk.js": "/Weather-Checker/static/js/453.97127cc3.chunk.js",
+    "static/media/broken.gif": "/Weather-Checker/static/media/broken.712d851da35a73f7dc7c.gif",
+    "static/media/drizzle.gif": "/Weather-Checker/static/media/drizzle.63ce0d923ea482cc79ec.gif",
+    "static/media/thudenrstorm1.gif": "/Weather-Checker/static/media/thudenrstorm1.ed81e0f308c83b82a650.gif",
+    "static/media/overcast.gif": "/Weather-Checker/static/media/overcast.9f921c058591fd7edc27.gif",
+    "static/media/snowy.gif": "/Weather-Checker/static/media/snowy.b3ca8e66887c526732fc.gif",
+    "static/media/rainy.gif": "/Weather-Checker/static/media/rainy.220e46185224af28b03c.gif",
+    "static/media/sunny.gif": "/Weather-Checker/static/media/sunny.d9c4b00c165b3155ab3e.gif",
+    "index.html": "/Weather-Checker/index.html",
+    "main.2a1b00a0.css.map": "/Weather-Checker/static/css/main.2a1b00a0.css.map",
+    "main.85d6ce80.js.map": "/Weather-Checker/static/js/main.85d6ce80.js.map",
+    "453.97127cc3.chunk.js.map": "/Weather-Checker/static/js/453.97127cc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a1b00a0.css",
+    "static/js/main.85d6ce80.js"
+  ]
+}
