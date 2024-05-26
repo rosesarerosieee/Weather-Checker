@@ -43,7 +43,8 @@
 
 .city-input::placeholder{
     color:darkblue;
-    font-size: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 .check-button{
@@ -118,7 +119,7 @@
 
     .Card{
         width: 200px;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
         border-radius: 20px;
         gap: 15px;
