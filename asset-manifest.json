@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Weather-Checker/static/css/main.2a1b00a0.css",
+    "main.css": "/Weather-Checker/static/css/main.6a1c43dc.css",
     "main.js": "/Weather-Checker/static/js/main.85d6ce80.js",
     "static/js/453.97127cc3.chunk.js": "/Weather-Checker/static/js/453.97127cc3.chunk.js",
     "static/media/broken.gif": "/Weather-Checker/static/media/broken.712d851da35a73f7dc7c.gif",
@@ -11,12 +11,12 @@
     "static/media/rainy.gif": "/Weather-Checker/static/media/rainy.220e46185224af28b03c.gif",
     "static/media/sunny.gif": "/Weather-Checker/static/media/sunny.d9c4b00c165b3155ab3e.gif",
     "index.html": "/Weather-Checker/index.html",
-    "main.2a1b00a0.css.map": "/Weather-Checker/static/css/main.2a1b00a0.css.map",
+    "main.6a1c43dc.css.map": "/Weather-Checker/static/css/main.6a1c43dc.css.map",
     "main.85d6ce80.js.map": "/Weather-Checker/static/js/main.85d6ce80.js.map",
     "453.97127cc3.chunk.js.map": "/Weather-Checker/static/js/453.97127cc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a1b00a0.css",
+    "static/css/main.6a1c43dc.css",
     "static/js/main.85d6ce80.js"
   ]
 }
