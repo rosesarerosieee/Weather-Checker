@@ -1,0 +1,241 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100%;    
+    background-color: darkblue;
+  
+}
+
+.Card{
+    padding: 60px;
+    background-color: lightblue;
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue
+}
+
+.city-input{
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid darkblue;
+    text-align: center;
+    background-color: whitesmoke;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.city-input::placeholder{
+    color:darkblue;
+    font-size: 2rem;
+}
+
+.check-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid darkblue;
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.check-button:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.weather-temps{
+    margin-top: 20px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: darkblue;
+}
+
+
+.Container.rainy{
+    background: url('../assets/images/rainy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Container.sunny{
+    background: url('../assets/images/sunny.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Container.snowy{
+    background: url('../assets/images/snowy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Container.broken{
+    background: url('../assets/images/broken.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Container.overcast{
+    background: url('../assets/images/overcast.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Container.thunder{
+    background: url('../assets/images/thudenrstorm1.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Container.drizzle{
+    background: url('../assets/images/drizzle.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Mobile Phones */ 
+
+@media (min-width: 320px ) and (max-width: 480px)
+{
+
+    .Card{
+        width: 200px;
+        height: 80vh;
+        text-align: center;
+        border-radius: 20px;
+        gap: 15px;
+    }
+
+    .title{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .city-input{
+        width: 130px;
+        height: 40px;
+        font-size: 0.7rem;
+       
+    }
+    
+    .city-input::placeholder{
+        font-size: 0.7rem;
+    }
+
+    .check-button{
+        width: 100px;
+        font-size: 0.7rem;
+        height: 30px;
+    }
+
+    
+    .weather-temps{
+        margin-top: 0;
+        font-size: 1rem;
+        gap: 5px;
+    }
+
+}
+
+/* TABLET */
+@media(min-width: 481px) and (max-width: 768px){
+
+    .Card{
+        width: 350px;
+        height: 80vh;
+        text-align: center;
+        border-radius: 20px;
+        gap: 15px;
+    }
+
+    .title{
+        font-size: 1.8rem;
+        font-weight: bolder;
+    }
+
+    .city-input{
+        width: 150px;
+        height: 40px;
+        font-size: 0.7rem;
+       
+    }
+    
+    .city-input::placeholder{
+        font-size: 0.7rem;
+    }
+
+    .check-button{
+        width: 100px;
+        font-size: 0.7rem;
+        height: 30px;
+    }
+
+    
+    .weather-temps{
+        margin-top: 20px;
+        font-size: 1.2rem;
+        gap: 5px;
+    }
+
+}
+
+@media (min-width: 1600px){
+    .Card{
+        padding: 100px;
+        width: 50%;
+        height: 100vh;
+        text-align: center;
+        border-radius: 50px;
+        gap: 20px;
+    }
+
+    .title{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .city-input{
+        margin-top: 20px;
+        width: 300px;
+        height: 70px;
+        font-size: 1.5rem;
+       
+    }
+    
+    .city-input::placeholder{
+        font-size: 1rem;
+    }
+
+    .check-button{
+        margin-top: 20px;
+        width: 180px;
+        font-size: 1.2rem;
+        height: 50px;
+    }
+
+    
+    .weather-temps{
+        margin-top: 30px;
+        font-size: 3rem;
+        gap: 50px;
+    }
+
+}
