@@ -30,9 +30,9 @@
 }
 
 .city-input{
-    width: 250px;
+    width: 350px;
     height: 60px;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 2px solid darkblue;
     text-align: center;
     background-color: whitesmoke;
@@ -115,7 +115,7 @@
 
 /* Mobile Phones */ 
 
-@media (min-width: 320px ) and (max-width: 480px)
+@media(max-width: 767px)
 {
 
     .Card{
@@ -132,10 +132,10 @@
     }
 
     .city-input{
-        width: 130px;
+        width: 150px;
         height: 40px;
+        border-radius: 10px;
         font-size: 0.7rem;
-       
     }
     
     .city-input::placeholder{
@@ -158,7 +158,7 @@
 }
 
 /* TABLET */
-@media(min-width: 481px) and (max-width: 768px){
+@media(min-width: 768px) and (max-width: 1023px){
 
     .Card{
         width: 350px;
@@ -176,6 +176,7 @@
     .city-input{
         width: 150px;
         height: 40px;
+        border-radius: 10px;
         font-size: 0.7rem;
        
     }
@@ -195,49 +196,6 @@
         margin-top: 20px;
         font-size: 1.2rem;
         gap: 5px;
-    }
-
-}
-
-@media (min-width: 1600px){
-    .Card{
-        padding: 100px;
-        width: 50%;
-        height: 100vh;
-        text-align: center;
-        border-radius: 50px;
-        gap: 20px;
-    }
-
-    .title{
-        font-size: 2rem;
-        font-weight: bolder;
-    }
-
-    .city-input{
-        margin-top: 20px;
-        width: 300px;
-        height: 70px;
-        font-size: 1.5rem;
-       
-    }
-    
-    .city-input::placeholder{
-        font-size: 1rem;
-    }
-
-    .check-button{
-        margin-top: 20px;
-        width: 180px;
-        font-size: 1.2rem;
-        height: 50px;
-    }
-
-    
-    .weather-temps{
-        margin-top: 30px;
-        font-size: 3rem;
-        gap: 50px;
     }
 
 }
